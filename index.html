@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar target">
+      <a href="#" class="navbar-link">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </a>
+      <a href="meals.html" target="_blank" class="navbar-link">
+        <i class="fas fa-utensils"></i>
+        <span>Meals</span>
+      </a>
+      <a href="about.html" target="_blank" class="navbar-link">
+        <i class="fas fa-address-card"></i>
+        <span>About</span>
+      </a>
+      <a href="contact.html" target="_blank" class="navbar-link">
+        <i class="fas fa-blender-phone"></i>
+        <span>Contact</span>
+      </a>
+    </nav>
+    <div class="menu target"></div>
+    <!-- End of Navbar  -->
+
+    <div class="container">
+      <!-- Section 1 -->
+      <section class="section-1">
+        <h1 class="section-heading">Kitchen Cravings</h1>
+        <div class="section-1-icons">
+          <i class="change fas fa-egg"></i>
+          <i class="fas fa-stroopwafel"></i>
+          <i class="fas fa-cheese"></i>
+          <i class="fas fa-hotdog"></i>
+          <i class="fas fa-drumstick-bite"></i>
+          <i class="fas fa-apple-alt"></i>
+          <i class="fas fa-ice-cream"></i>
+          <i class="fas fa-fish"></i>
+          <i class="fas fa-cookie"></i>
+        </div>
+      </section>
+      <!-- End Section 1 -->
+
+      <!-- Section 2 -->
+      <section class="section-2">
+        <h1 class="section-heading">popular meals</h1>
+        <div class="cards-container">
+          <div class="card">
+            <img src="assets/images/card-img-1.png" class="card-img" />
+            <h3 class="card-name">Fish</h3>
+            <button class="card-btn">Order now</button>
+          </div>
+          <div class="card">
+            <img src="assets/images/card-img-2.png" class="card-img" />
+            <h3 class="card-name">Cake</h3>
+            <button class="card-btn">Order now</button>
+          </div>
+          <div class="card">
+            <img src="assets/images/card-img-3.png" class="card-img" />
+            <h3 class="card-name">Lobster</h3>
+            <button class="card-btn">Order now</button>
+          </div>
+        </div>
+      </section>
+      <!-- End of Section 2 -->
+
+      <!-- Section 3 -->
+      <section class="section-3">
+        <h1 class="section-heading">OUR MENU</h1>
+        <div class="gallery">
+          <a href="#" class="gallery-link" title="Order Now">
+            <img src="./assets/images/gallery-img-1.jpg" class="food-img" />
+            <h3 class="food-name">Pancakes</h3>
+            <p class="food-description">
+              A Butter Milk Pancakes Topped With Honey and With Strawberries
+              which makes it more Delicious,Fluffy And Juicy At The Same Time.
+            </p>
+          </a>
+          <a href="#" class="gallery-link" title="Order Now">
+            <img src="./assets/images/gallery-img-2.jpg" class="food-img" />
+            <h3 class="food-name">Cupcakes</h3>
+            <p class="food-description">
+              Moist cinnamon cake, dipped in cinnamon sugar, topped with our
+              cinnamon sugar cream cheese icing and a piece of churro on top
+            </p>
+          </a>
+          <a href="#" class="gallery-link" title="Order Now">
+            <img src="./assets/images/sushi.jpg" class="food-img" />
+            <h3 class="food-name">Sushi</h3>
+            <p class="food-description">
+              We want to break the misconception surrounding sushi and revamp it
+              as a go-to healthy food alternate; that is rich in omega 5
+            </p>
+          </a>
+          <a href="#" class="gallery-link" title="Order Now">
+            <img src="./assets/images/gallery-img-4.jpg" class="food-img" />
+            <h3 class="food-name">Hamburger</h3>
+            <p class="food-description">
+              Tasty, delicious, craving more on the first bite.” to “Juicy,
+              mouthwatering, tasty, and everything you’d ever want to savor.
+            </p>
+          </a>
+          <a href="#" class="gallery-link" title="Order Now">
+            <img src="./assets/images/gallery-img-5.jpg" class="food-img" />
+            <h3 class="food-name">Salmon</h3>
+            <p class="food-description">
+              “This meal is a taste explosion! It’s now one our favorites and is
+              also being added to our “company-worthy” recipe file of meals to
+              make for guests.”
+            </p>
+          </a>
+          <a href="#" class="gallery-link" title="Order Now">
+            <img src="./assets/images/gallery-img-6.jpg" class="food-img" />
+            <h3 class="food-name">Club Sandwiches</h3>
+            <p class="food-description">
+              a sandwich of toasted bread, sliced cooked turkey, ham or fried
+              bacon, lettuce, tomato, and mayonnaise.
+            </p>
+          </a>
+        </div>
+      </section>
+      <!-- End of Section 3 -->
+
+      <!-- Section 4 -->
+      <section class="section-4">
+        <div class="section-4-text">
+          <h2 class="section-4-heading">Sign Me Up</h2>
+          <p class="section-4-paragraph">
+            BE THE FIRST TO KNOW ABOUT NEW PRODUCTS
+          </p>
+        </div>
+        <form class="signup-form">
+          <input
+            type="email"
+            class="signup-form-input"
+            placeholder="Enter Your Email"
+          />
+          <button type="submit" class="signup-form-btn">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </form>
+        <p class="copyright">Copyright &copy; All rights reserved</p>
+      </section>
+      <!-- End of Section 4 -->
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
